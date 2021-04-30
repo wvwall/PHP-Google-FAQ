@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+section {
+  border-bottom: 1px solid #CBCBCB;
+  padding: 5px 0;
+}
+section .navbar-top {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+}
+section .navbar-top .left-top {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  color: #484C4E;
+}
+section .navbar-top .left-top h1 {
+  font-weight: 500;
+  margin-left: 10px;
+}
+section .navbar-top .left-top img {
+  height: 40px;
+}
+section .navbar-top .right-top {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  color: #484C4E;
+}
+section .navbar-top .right-top svg {
+  height: 30px;
+}
+section .navbar-top .right-top img {
+  border-radius: 50%;
+  margin-left: 20px;
+}
+section .navbar-bottom {
+  width: 95%;
+  margin: 0 auto;
+}
+section .navbar-bottom .list {
+  width: 60%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+section .navbar-bottom .list li a {
+  text-decoration: none;
+  color: #484C4E;
+  font-weight: 500;
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+section .navbar-bottom .list li a#active {
+  color: #3367D6;
+  border-bottom: 3px solid #3367D6;
+}
+
+.container-faq {
+  width: 75%;
+  margin: 0 auto;
+  height: 500px;
+  background-color: red;
+}
