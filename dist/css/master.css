@@ -7,7 +7,6 @@
 }
 
 li:hover {
-  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -72,6 +71,12 @@ section .navbar-bottom .list li a#active {
 .container-faq {
   width: 75%;
   margin: 0 auto;
-  height: 500px;
-  background-color: red;
+}
+.container-faq div:first-child {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.container-faq div {
+  margin-top: 50px;
+  font-size: 1em;
 }

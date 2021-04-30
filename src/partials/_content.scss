@@ -1,6 +1,12 @@
 .container-faq {
     width: 75%;
     margin: 0 auto;
-    height: 500px;
-    background-color: red;
+    & div:first-child {
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+   div {
+       margin-top: 50px;
+       font-size: 1em;
+   }
 }
