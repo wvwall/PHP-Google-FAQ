@@ -68,15 +68,30 @@ section .navbar-bottom .list li a#active {
   border-bottom: 3px solid #3367D6;
 }
 
-.container-faq {
+.container-faq1 {
   width: 75%;
   margin: 0 auto;
 }
-.container-faq div:first-child {
+.container-faq1 div:first-child {
   font-size: 1.3em;
   font-weight: 500;
+  margin-top: 100px;
 }
-.container-faq div {
-  margin-top: 50px;
+.container-faq1 div {
+  margin-top: 40px;
+  font-size: 1em;
+}
+
+.container-faq2 {
+  width: 75%;
+  margin: 0 auto;
+}
+.container-faq2 div:first-child {
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-top: 100px;
+}
+.container-faq2 div {
+  margin-top: 40px;
   font-size: 1em;
 }

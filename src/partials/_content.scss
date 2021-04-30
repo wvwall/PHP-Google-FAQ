@@ -1,12 +1,26 @@
-.container-faq {
+.container-faq1 {
     width: 75%;
     margin: 0 auto;
     & div:first-child {
         font-size: 1.3em;
         font-weight: 500;
+        margin-top: 100px;
     }
    div {
-       margin-top: 50px;
+       margin-top: 40px;
+       font-size: 1em;
+   }
+}
+.container-faq2 {
+    width: 75%;
+    margin: 0 auto;
+    & div:first-child {
+        font-size: 1.3em;
+        font-weight: 500;
+        margin-top: 100px;
+    }
+   div {
+       margin-top: 40px;
        font-size: 1em;
    }
 }
