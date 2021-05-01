@@ -93,12 +93,6 @@
             Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all' esatte parole chiave che hanno determinato il clic su un annuncio."],
     ];
 
-
-
-    
-
-
-
 ?>
 
 
@@ -120,9 +114,14 @@
 </head>
 <body>
     <header>
-        <section>
+        <section class="navbar">
             <div class="navbar-top">
                 <div class="left-top">
+                    <div class="hamburger_menu">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
                     <img src="./dist/img/logo.png" alt="">
                     <h1>Privacy e termini</h1>
                 </div>
@@ -142,6 +141,7 @@
                 </ul>
             </div>
         </section>
+        <section class="invisible"></section>
     </header>
      
     <main>
@@ -164,10 +164,32 @@
     </main>
 
     <footer>
-       
+       <section class="bg-footer">
+            <div class="container footer">
+                <div class="left-footer">
+                    <ul class="list-footer">
+                        <li> Google . </li>
+                        <li> Tutto su google .</li>
+                        <li> Privacy . </li>
+                        <li> Termini . </li>
+                    </ul>
+                </div>
+                <div class="right-footer">
+                    <div class="select">
+                        <img src="./dist/img/icon-footer.png" alt="">
+                        <select name="" id="">
+                            <option value="Italiano">Italiano</option>
+                            <option value="English">English</option>
+                        </select>
+                    </div>
+                    
+                </div>
+            </div>
+       </section>
     </footer>
 
 
-   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="./dist/js/main.js"></script>
 </body>
 </html>

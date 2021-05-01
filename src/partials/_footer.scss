@@ -1,0 +1,33 @@
+.bg-footer {
+    width: 100%;
+    background-color: #F5F5F5;
+    .container.footer{
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .list-footer {
+            min-height: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            color: #959595;
+            li:first-child {
+                list-style: none;
+            }
+            li {
+                font-size: 0.7em;
+                margin-right: 10px;
+            }
+        }
+        .select {
+            min-height: 40px;
+            display: flex;
+            align-items: center;
+            select {
+                width: 150px;
+                margin-left: 10px;
+            }
+        }
+    }
+}

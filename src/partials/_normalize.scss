@@ -8,20 +8,13 @@
 li:hover{
     cursor: pointer;
 }
-ul, ol {
-    margin: 0 0 0 16px;
-    padding: 0;
-}
-ol > li > ol {
-    list-style: lower-alpha;
-}
-li {
-    line-height: 24px;
-    padding-left: 16px;
-    padding-top: 20px;
-}
+
 
 span {
     color: $asctiveLink;
     cursor: pointer;
+}
+
+.close {
+    display: none;
 }
