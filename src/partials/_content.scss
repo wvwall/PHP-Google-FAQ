@@ -1,26 +1,15 @@
 .container-faq1 {
     width: 75%;
     margin: 0 auto;
-    & div:first-child {
-        font-size: 1.3em;
-        font-weight: 500;
-        margin-top: 100px;
-    }
    div {
-       margin-top: 40px;
+       margin-top: 20px;
+       margin-bottom: 30px;
        font-size: 1em;
-   }
-}
-.container-faq2 {
-    width: 75%;
-    margin: 0 auto;
-    & div:first-child {
-        font-size: 1.3em;
-        font-weight: 500;
-        margin-top: 100px;
-    }
-   div {
-       margin-top: 40px;
-       font-size: 1em;
+       &.question {
+           margin-top: 40px;
+            font-size: 1.2em;
+            font-weight: 500;
+            margin-top: 100px;
+       }
    }
 }
